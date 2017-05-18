@@ -10,7 +10,7 @@ app.use(bodyParser.json());
 
 mongoose.Promise = global.Promise;
 
-app.use(express.static(__dirname)); // for serving static files in express
+app.use(express.static('public')); // for serving static files in express
 
 //>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 //>>>>>>>>>ENDPOINTS <<<<<<<<<<<<<<<<<<<<<<<

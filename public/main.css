@@ -1,0 +1,125 @@
+* {
+    box-sizing: border-box;
+    font-weight: 5px;
+}
+
+.OflHomeButton, .OflHomeButton:hover {
+    color: #FFF; 
+    display: inline-block;
+    font-size: 18px;
+    margin-right: 20px;
+    text-decoration: none;
+    line-height: 40px;
+    vertical-align: middle;
+
+}
+
+.OflHeader {
+    background-color: #8B4513;   
+    text-align: center;
+    width: 100%;      
+    color: #FFF;
+    font-weight: 600px;
+    margin-top: 0;
+}
+
+#backOrderSquare {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background: #B76BA3;
+    line-height: 30px;
+    vertical-align: middle;
+}
+
+.OflFooter {
+    background-color: #8B4513;
+    text-align: center;
+    width: 100%;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    color: #FFF;
+    font-weight: 600;
+}
+
+.landingButton, .landingButton:hover {
+    color: black;
+    font-size: 33px;
+    text-decoration: none;  
+}
+
+#landingLink {
+    color: #000;
+}
+
+select {
+    height: 28px;
+}
+
+.parDesc {
+    padding: 20px;
+    font-size: 30px;
+}
+
+/*#landingHead {
+    text-align: center;
+    font-size: 39px;
+}*/
+
+.exampleEntry.onBackOrder {
+    background-color: #B76BA3;
+    border-color: #FFF;
+}
+
+#CapstoneDescription {
+    color: #000;
+    text-align: center;
+    margin-top: 80px;
+}
+
+form label {
+    color: #000;
+    display: inline-block;
+    width: 200px;
+}
+
+/*.submitButton {
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+}*/
+
+body {
+    padding-bottom: 50px;
+    margin: 0;
+    padding: 0;
+    background-color: #F6D155;
+    font-size: 1.6em;
+    color: #000;
+}
+
+
+.exampleEntry {
+    color: #000;
+    border-style: solid;
+    /*border-color: black;*/
+    text-align: left;
+    background-color: white;
+}
+
+
+/* mouse over link */
+.exampleEntry:hover {
+    color: #223A5E;
+}
+
+
+/*for landing page*/
+ul {
+    list-style-type: none;
+}
+
+li {
+    width: 100%;
+    text-align: center;
+}
